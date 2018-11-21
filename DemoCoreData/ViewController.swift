@@ -11,6 +11,7 @@ import UIKit
 
 var tasks = [String]()
 
+@available(iOS 10.0, *)
 class ViewController: UIViewController, UITableViewDataSource{
     
     @IBOutlet weak var tableView: UITableView!
